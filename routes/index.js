@@ -4,4 +4,5 @@ module.exports = function (app) {
     require('./register')(app);
     require('./upload')(app);
     require('./home')(app);
+    require('./upload_compress')(app);
 };
